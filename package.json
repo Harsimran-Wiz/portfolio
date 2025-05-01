@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd client && npm run preview",
+    "lint": "cd client && npm run lint",
+    "test": "cd client && npm test",
+    "typecheck": "cd client && npm run typecheck"
+  }
+}
