@@ -13,6 +13,8 @@ const Footer = lazy(() => import("./components/Footer/Footer"));
 import SectionErrorBoundary from "./components/SectionErrorBoundary";
 import BackToTop from "./components/BackToTop";
 import { COMMON_PADDING } from "./constant/constantStyles";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -58,6 +60,8 @@ function App() {
           </div>
         </Layout>
       </ErrorBoundary>
+      <Analytics />
+      <SpeedInsights />
     </HelmetProvider>
   );
 }
