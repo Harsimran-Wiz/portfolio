@@ -1,5 +1,5 @@
 import { FC, memo } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { MenuItem } from "../../types/types";
 import { COMMON_PADDING } from "../../constant/constantStyles";
 
@@ -35,19 +35,10 @@ const Footer: FC = memo(() => {
               href="https://www.linkedin.com/in/harsimran888/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--primary))] transition-colors"
+              className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--primary))] transition-colors z-10"
               aria-label="LinkedIn Profile"
             >
               <FaLinkedin size={20} />
-            </a>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--primary))] transition-colors"
-              aria-label="GitHub Profile"
-            >
-              <FaGithub size={20} />
             </a>
           </div>
         </div>
