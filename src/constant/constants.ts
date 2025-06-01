@@ -87,13 +87,7 @@ export const experienceList = [
     company: "Tata Consultancy Services (TCS)",
     date: "October 2021 - Present",
     desc: [
-      "Developed and maintained scalable, enterprise-grade web applications using ReactJS, TypeScript, and Redux Toolkit",
-      "Improved data consistency and reduced API calls by 30% through efficient state management",
-      "Enhanced deployment efficiency by 40% using Git and Azure DevOps for CI/CD",
-      "Achieved 50% increase in user satisfaction through UI optimizations",
-      "Implemented reusable components reducing code duplication by 25%",
-      "Reduced deployment issues by 80% through improved QA processes",
-      "Actively collaborated in Agile sprints with cross-functional teams to deliver features on time",
+      "Architected and delivered high-performance enterprise web applications, implementing advanced React ecosystem patterns that significantly enhanced user experience and system reliability while optimizing code maintainability across business-critical platforms.",
     ],
     skills: [
       "HTML",
@@ -107,7 +101,8 @@ export const experienceList = [
       "Tailwind CSS",
       "Redux",
       "Azure DevOps",
-      "Figma"
+      "Python",
+      "Figma",
     ],
   },
 ];
